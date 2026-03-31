@@ -17,6 +17,7 @@ public class Lt_RegisterPage {
 	public void enterFirstName(String fname) {
 		//page.fill(firstName, fname); // This also works.
 		page.locator(firstName).fill(fname); 
+		page.pause();
 	}
 
 	public void enterLastName(String lname) {
